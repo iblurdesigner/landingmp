@@ -1,56 +1,95 @@
 test(color=red)
 	border solid 1px color
 	
-/*.main-container
-	border solid 2px red
-
-.container
-	border solid 1px green
-
-.row
-	border solid 1px orange*/
+@import 'https://fonts.googleapis.com/css?family=Glegoo:400,700';	
 	
 .body
-	width 1440px
+	font-family 'Glegoo', serif
+	font-size 16px
 		
-.alineadovertical
+/*.vertical
 	display flex
 	flex-wrap wrap
 	justify-content	center
 	align-content space-around
-	height 100%
-	
-.navmenu
-	color white
-	box-shadow 0 13px 20px 0 rgba(0, 0, 0, 0.5)
-	height 75px
-	z-index 9
-	position fix
-.navmenu-cont
-	display flex
-	justify-content space-around	
+	height 100%*/
+.rojo
+	border solid 1px red
 
+.naranja
+	border solid 1px orange
+
+.verde
+	border solid 1px green
+	
+.rosado
+	border solid 1px pink
+	
+.celeste
+	border solid 1px cyan
+.azul
+	border solid 1px blue
+		
+/*COLOR NATANJA MEATPRO PARA TEXTO	*/
+$colorMP = #F9A81A				
+	
+.centrar
+	display flex
+	justify-content center
+
+/*SUBTITULOS 2 COLOR NARANJA*/
+.subti2
+	color $colorMP
+	font-size 1.5rem
+	font-family 'Glegoo'
+	font-weight 700
+	
+		
+.sombra
+	box-shadow 0 13px 20px 0 rgba(0, 0, 0, 0.5)
+	width 100vw
+	background-color white
+		
+.navmenu
+	width 100%
+	box-shadow none
+	background-color white	
+
+.navmenu ul a
+	color #a7a7a7
+	
+.navmenu ul a:hover
+	background-color #F9A81A
+	color white
+		
 .logo
 	color red
 	flex-grow 2
 .logo img
 	height 61px
+	
 .menu-list
 	flex-grow 4
 
 .menu-list ul
 	display flex
 	justify-content space-around
+
+.resumen
+	font-size 1rem
+	font-family 'Glegoo'
+	color gray
+	line-height normal
 		
 .presentacion
 	background-image url('../img/inicio.jpg')
 	background-position center
 	height 540px
 	background-repeat no-repeat
-	test(green)
+	width 100vw
 		
 .presentacion:nth-child(2)
 	text-align center
-.doslogos
-	width 350px
-	test(red)	
+	font-family 'Glegoo'
+	font-weight 700
+	font-size .9rem

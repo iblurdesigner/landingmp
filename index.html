@@ -4,40 +4,57 @@
 	<meta charset="UTF-8">
 	<title>Meat Pro</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 </head>
 <body>
-	<section class="navmenu">
-		<div class="container navmenu-cont">
-			<div class="logo">
-				<img src="img/svg/logoMeatPro.svg" alt="">
+	<nav class="sombra">
+		<div class="container">
+		<!-- Dropdown Structure -->
+		<ul id="dropdown1" class="dropdown-content">
+		  <li><a href="#!">Día Día</a></li>
+		  <li class="divider"></li>
+		  <li><a href="#!">Fin de semana</a></li>
+		</ul>
+		<nav class="navmenu">
+		  <div class="nav-wrapper">
+		    <a href="#!" class="brand-logo logo">
+		    	<img src="img/svg/logoMeatPro.svg" alt="">
+		    </a>
+		    <ul class="right hide-on-med-and-down">
+		      <li><a href="#!">Empresa</a></li>
+		      <li><a href="#!">Industry</a></li>
+		      <!-- Dropdown Trigger -->
+		      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Carnivery<i class="material-icons right">arrow_drop_down</i></a></li>
+		      <li><a href="#!">Contáctenos</a></li>
+		    </ul>
+		  </div>
+		</div>
+		</nav>  
+	</nav>
+	<div class="main-container rojo">
+		<div class="container verde">
+			<div class="row rojo">
+				<h1 class="col s12 celeste resumen center">
+					Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de: Res, Cerdo, Pollo y Charcutería. <br>
+					Nuestra línea Industry se enfoca en todo el sector HORECA. (Hoteles, Caterings, Restaurantes).
+					 Para llegar al consumidor final, hemos creado una nueva línea Carnivery, que se enfoca en facilitar la vida al cliente final, con lo mejor de nuestra línea cárnica.
+				</h1>
+				<h2 class="subti2 center">Nuestras Líneas</h2>
 			</div>
-			<div class="menu-list">
-				<ul>
-					<li><a href="">Empresa</a></li>
-					<li><a href="">Carnivery</a></li>
-					<li><a href="">Industry</a></li>
-					<li><a href="">Contáctenos</a></li>
-				</ul>		
+			<div class="row naranja center">
+				<div class="col s6">Industry</div>
+				<div class="col s6">Carnivery</div>
 			</div>
 		</div>
-	</section>
-	<section class="main-container presentacion">
-		<div class="container alineadovertical">
-			<div class="row">
-				<p>Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de res, cerdo, pollo y charcutería.
-				Nuestras líneas de negocio permiten que nuestros productos estén presentes en toda la cadena de alimentos, desde la industria hasta el consumidor final. <br>
-				Hemos creado una nueva línea  llamada Carnivery, que se enfoca en facilitar la vida al cliente final.</p>
-			</div>
-			<div class="col m12">
-				<div class="row doslogos">
-					<div class="col m6">carnivery</div>
-					<div class="col m6">industry</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	</div>
+	<script>
+		$( document ).ready(function(){
+			$(".dropdown-button").dropdown();
+		});
+	</script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 </body>
 </html>
