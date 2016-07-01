@@ -115,6 +115,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mobile\/fAbajo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 842,
+		"inputAbbreviatedPath": "\/img\/mobile\/fAbajo.png",
+		"outputAbbreviatedPath": "\/img\/mobile\/fAbajo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mobile\/finde.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -137,35 +148,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/fondoInicio.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14385,
-		"inputAbbreviatedPath": "\/img\/mobile\/fondoInicio.jpg",
-		"outputAbbreviatedPath": "\/img\/mobile\/fondoInicio.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/fondoInicio.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 93033,
-		"inputAbbreviatedPath": "\/img\/mobile\/fondoInicio.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/fondoInicio.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/fondoInicio2x.jpg": {
+	"\/img\/mobile\/fondoInicio@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 41054,
-		"inputAbbreviatedPath": "\/img\/mobile\/fondoInicio2x.jpg",
-		"outputAbbreviatedPath": "\/img\/mobile\/fondoInicio2x.jpg",
+		"inputAbbreviatedPath": "\/img\/mobile\/fondoInicio@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/fondoInicio@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -247,17 +236,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/logo carnivery.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13285,
-		"inputAbbreviatedPath": "\/img\/mobile\/logo carnivery.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/logo carnivery.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mobile\/logo dia dia.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -280,24 +258,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/logo meatpro copy.png": {
+	"\/img\/mobile\/logoCarnivery@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8294,
-		"inputAbbreviatedPath": "\/img\/mobile\/logo meatpro copy.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/logo meatpro copy.png",
+		"initialSize": 30375,
+		"inputAbbreviatedPath": "\/img\/mobile\/logoCarnivery@2x.png",
+		"outputAbbreviatedPath": "\/img\/mobile\/logoCarnivery@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/logoIndustry.png": {
-		"fileType": 32768,
+	"\/img\/mobile\/logoIndustry@2x.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 40085,
-		"inputAbbreviatedPath": "\/img\/mobile\/logoIndustry.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/logoIndustry.png",
+		"initialSize": 19067,
+		"inputAbbreviatedPath": "\/img\/mobile\/logoIndustry@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/logoIndustry@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
