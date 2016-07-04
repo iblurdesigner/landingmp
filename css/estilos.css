@@ -94,6 +94,7 @@ body {
   background-repeat: no-repeat;
   width: 100vw;
 }
+/*SECCION CARNIVERY*/
 .carHead {
   background-image: url("../img/mobile/carHeadMobile@2x.jpg");
   background-position: center;
@@ -118,6 +119,24 @@ body {
 .cajaBlanca {
   background-color: #fff;
   border-radius: 20px;
+}
+/*SECCION FIN DE SEMANA*/
+.fondoFinde {
+  background-image: url("../img/mobile/fFinde.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 592px;
+  display: flex;
+  align-items: center;
+}
+.logoFinde {
+  background-image: url("../img/svg/lFinde.svg");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 227px;
 }
 /*	
 @media screen and (max-width: 320px)

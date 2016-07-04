@@ -135,13 +135,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/finde.png": {
-		"fileType": 32768,
+	"\/img\/mobile\/fFinde.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 435499,
-		"inputAbbreviatedPath": "\/img\/mobile\/finde.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/finde.png",
+		"initialSize": 284052,
+		"inputAbbreviatedPath": "\/img\/mobile\/fFinde.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/fFinde.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -241,17 +241,6 @@
 		"initialSize": 226469,
 		"inputAbbreviatedPath": "\/img\/mobile\/iPhoneCarnivery.png",
 		"outputAbbreviatedPath": "\/img\/mobile\/iPhoneCarnivery.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/logo finde.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39689,
-		"inputAbbreviatedPath": "\/img\/mobile\/logo finde.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/logo finde.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

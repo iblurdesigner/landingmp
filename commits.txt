@@ -1,3 +1,9 @@
+commit 6b23b54a28db20b6e16181a970abd7e6899bd4cf
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 4 15:45:05 2016 -0500
+
+    maquetado sección dia a dia
+
 commit d59bb35fcb116cb88e5cdb0536169fcdaf3c6fd6
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Jul 4 14:40:45 2016 -0500
