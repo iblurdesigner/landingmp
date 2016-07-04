@@ -1,3 +1,9 @@
+commit 060762bead81e28babd45e903e1c0c825ff85f87
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 4 08:46:37 2016 -0500
+
+    archivos bundler para automatizar tareas
+
 commit 6a4b6673942ea6e7d1fdd86b2bb4b951ed96c55c
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Jul 1 10:42:57 2016 -0500

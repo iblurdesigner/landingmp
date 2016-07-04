@@ -1,7 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Glegoo:400,700';
-.body {
-  font-family: 'Glegoo', serif;
+body {
+  font-family: 'Glegoo';
   font-size: 16px;
+  font-weight: 400;
 }
 .rojo {
   border: solid 1px #f00;
@@ -41,6 +42,14 @@
 .sombra {
   box-shadow: 0 5px 4px 0 rgba(0,0,0,0.5);
 }
+.sombraText {
+  text-shadow: 0 2px 2px #000;
+}
+.btnEntrar {
+  border-radius: 20px;
+  background-color: #f9a81a;
+  padding: 0.6rem 2.1rem;
+}
 .navmenu {
   width: 100%;
   box-shadow: none;
@@ -66,8 +75,27 @@
   line-height: normal;
 }
 .fpresentacion {
-  background-image: url("../public/mobile/fondoinicio@2x.jpg");
+  background-image: url("../img/mobile/fondoinicio@2x.jpg");
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
 }
+.carHead {
+  background-image: url("../img/mobile/carHeadMobile@2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+.textCarnivery {
+  margin-top: 270px;
+  text-align: center;
+  color: #fff;
+}
+/*	
+@media screen and (max-width: 320px)
+	.carHead
+		background-image url('../img/mobile/carHeadMobile.jpg')
+		background-position center
+		background-repeat no-repeat
+		background-size contain*/

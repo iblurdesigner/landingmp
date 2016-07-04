@@ -1,0 +1,73 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Meat Pro
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css')
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(rel='stylesheet', href='css/estilos.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+  body
+    nav.sombraNav
+      .container
+        // Dropdown Structure
+        ul#dropdown1.dropdown-content
+          li
+            a(href='#!') Día Día
+          li.divider
+          li
+            a(href='#!') Fin de semana
+        nav.navmenu
+          .nav-wrapper
+            a.brand-logo.logoNav(href='#!')
+              img(src='img/svg/logoMeatPro.svg', alt='')
+            ul.right.hide-on-med-and-down
+              li
+                a(href='#!') Empresa
+              li
+                a(href='#!') Industry
+              // Dropdown Trigger
+              li
+                a.dropdown-button(href='#!', data-activates='dropdown1')
+                  | Carnivery
+                  i.material-icons.right arrow_drop_down
+              li
+                a(href='#!') Contáctenos
+    .main-container.fpresentacion
+      .container.rojo
+        .row
+          h1.col.s12.resumen.center
+            | Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de: Res, Cerdo, Pollo y Charcutería. 
+            br
+            | Nuestra línea Industry se enfoca en todo el sector HORECA. (Hoteles, Caterings, Restaurantes).
+            | Para llegar al consumidor final, hemos creado una nueva línea Carnivery, que se enfoca en facilitar la vida al cliente final, con lo mejor de nuestra línea cárnica.
+          h2.subti2.center Nuestras Líneas
+        .row.center
+          .col.s6.logo
+            img(src='img/mobile/logoIndustry@2x.jpg', alt='')
+          .col.s6.logo
+            img(src='img/mobile/logoCarnivery@2x.png', alt='')
+          .col.s12
+            p Ver más
+            button
+              a
+                img(src='img/mobile/fAbajo.png', alt='')
+
+    <!-- CARNIVERY INTRODUCCION-->              
+    .main-container.carHead
+      .container
+        .row
+          p.col.s12.textCarnivery.sombraText
+            | Muchas veces necesitas tus cortes para el almuerzo y no tienes tiempo, no te preocupes. Carnivery te llevará los mejores cortes directo a tu hogar. Tenemos dos líneas Día Día y Fin de Semana. Ya no pases tiempo en el supermercado, Carnivery te simplifica la vida.
+        .row.center
+          botton.btnEntrar entrar
+
+    <!-- DIA A DIA-->
+    .main-container.rojo
+      .container      
+    script.
+      $( document ).ready(function(){
+      $(".dropdown-button").dropdown();
+      });
+    script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
