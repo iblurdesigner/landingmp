@@ -47,6 +47,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logDia.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11615,
+		"inputAbbreviatedPath": "\/img\/logDia.png",
+		"outputAbbreviatedPath": "\/img\/logDia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mobile\/App Store.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -234,17 +245,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/logo dia dia.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11615,
-		"inputAbbreviatedPath": "\/img\/mobile\/logo dia dia.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/logo dia dia.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mobile\/logo finde.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -278,46 +278,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/madera blanca copy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 420503,
-		"inputAbbreviatedPath": "\/img\/mobile\/madera blanca copy.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/madera blanca copy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/madera blanca.jpg": {
+	"\/img\/mobile\/maderaBlanca.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 86368,
-		"inputAbbreviatedPath": "\/img\/mobile\/madera blanca.jpg",
-		"outputAbbreviatedPath": "\/img\/mobile\/madera blanca.jpg",
+		"inputAbbreviatedPath": "\/img\/mobile\/maderaBlanca.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/maderaBlanca.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/madera blanca.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 481011,
-		"inputAbbreviatedPath": "\/img\/mobile\/madera blanca.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/madera blanca.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/madera blanca@2x.jpg": {
+	"\/img\/mobile\/maderaBlanca@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 256369,
-		"inputAbbreviatedPath": "\/img\/mobile\/madera blanca@2x.jpg",
-		"outputAbbreviatedPath": "\/img\/mobile\/madera blanca@2x.jpg",
+		"inputAbbreviatedPath": "\/img\/mobile\/maderaBlanca@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/maderaBlanca@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

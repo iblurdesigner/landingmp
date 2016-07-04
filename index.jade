@@ -34,14 +34,14 @@ html(lang='en')
               li
                 a(href='#!') Contáctenos
     .main-container.fpresentacion
-      .container.rojo
+      .container
         .row
           h1.col.s12.resumen.center
             | Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de: Res, Cerdo, Pollo y Charcutería. 
             br
             | Nuestra línea Industry se enfoca en todo el sector HORECA. (Hoteles, Caterings, Restaurantes).
             | Para llegar al consumidor final, hemos creado una nueva línea Carnivery, que se enfoca en facilitar la vida al cliente final, con lo mejor de nuestra línea cárnica.
-          h2.subti2.center Nuestras Líneas
+          h2.subti3.center Nuestras Líneas
         .row.center
           .col.s6.logo
             img(src='img/mobile/logoIndustry@2x.jpg', alt='')
@@ -63,8 +63,38 @@ html(lang='en')
           botton.btnEntrar entrar
 
     <!-- DIA A DIA-->
-    .main-container.rojo
-      .container      
+    .main-container.madera.alfa
+      .container
+        .row
+          figure.logo
+            img(src='img/svg/logDia.svg')
+        .row
+          h3.col.s12.subtiNegro LISTO PARA RESOLVERTE EL DIA
+        .row
+          p.col.s12
+            | Muchas veces no sabes que preparar para cada día. No te preocupes, puedes pedir tus cortes y planificar toda una semana. Así tendrás cero estrés.
+        .row.center
+          botton.btnEntrar entrar
+        .cajaBlanca.sombra
+          figure.centrar
+            img(src='img/mobile/cfinde.png' srcset='img/mobile/cfinde@2x.png 2x')
+          .container
+            .row
+              h3.subti2
+                | FRESCO, RAPIDO Y LISTO PARA SERVIR
+            .row
+              p
+                | Y lo mejor de todo sin salir de casa, con los cortes que elijas podrás preparar los platos que tanto desean los tuyos. Deleita el paladar!
+            .row.center
+              .col.s4
+                img(src="img/svg/icoRes.svg", alt="")
+                p Res  
+              .col.s4
+                img(src="img/svg/icoCerdo.svg", alt="")
+                p Cerdo
+              .col.s4
+                img(src="img/svg/icoPollo.svg", alt="")
+                p Pollo
     script.
       $( document ).ready(function(){
       $(".dropdown-button").dropdown();
