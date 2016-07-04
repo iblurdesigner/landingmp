@@ -1,0 +1,1 @@
+var express=require("express"),app=express();app.get("/",function(e,p){p.send("Hola mundo")});

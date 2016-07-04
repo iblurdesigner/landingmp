@@ -1,3 +1,15 @@
+commit 6a4b6673942ea6e7d1fdd86b2bb4b951ed96c55c
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Jul 1 10:42:57 2016 -0500
+
+    presentación maquetada
+
+commit 7a8021d20b29ad190a1d06e88a3a610df79d7fd8
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Jul 1 08:58:07 2016 -0500
+
+    texto de presentación de meatpro y estilos de parrafo agregados
+
 commit 4aeb15f1aa06abf7fc63d4ccb1683b0e6aeec12a
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Thu Jun 30 09:13:38 2016 -0500
