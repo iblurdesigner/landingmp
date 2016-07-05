@@ -1,3 +1,9 @@
+commit 91eee436dc4c21a0d0e71bae0ba17cb753975525
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 5 16:05:46 2016 -0500
+
+    maquetado linea de productos
+
 commit 6533527cab4e2de27d794e9eab16a8935b9e3571
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Jul 5 14:12:06 2016 -0500

@@ -146,6 +146,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mobile\/ficha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25287,
+		"inputAbbreviatedPath": "\/img\/mobile\/ficha.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/ficha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mobile\/flecha.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -168,13 +179,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/foodServices.png": {
-		"fileType": 32768,
+	"\/img\/mobile\/foodServices.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 64853,
-		"inputAbbreviatedPath": "\/img\/mobile\/foodServices.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/foodServices.png",
+		"initialSize": 15288,
+		"inputAbbreviatedPath": "\/img\/mobile\/foodServices.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/foodServices.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mobile\/foodServices@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39231,
+		"inputAbbreviatedPath": "\/img\/mobile\/foodServices@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/mobile\/foodServices@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -307,17 +329,6 @@
 		"initialSize": 179291,
 		"inputAbbreviatedPath": "\/img\/mobile\/parrillada2x.jpg",
 		"outputAbbreviatedPath": "\/img\/mobile\/parrillada2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/Screenshot 2016-06-23 12.41.46.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18237,
-		"inputAbbreviatedPath": "\/img\/mobile\/Screenshot 2016-06-23 12.41.46.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/Screenshot 2016-06-23 12.41.46.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
