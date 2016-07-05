@@ -267,17 +267,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/logoIndustry@2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19067,
-		"inputAbbreviatedPath": "\/img\/mobile\/logoIndustry@2x.jpg",
-		"outputAbbreviatedPath": "\/img\/mobile\/logoIndustry@2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mobile\/maderaBlanca.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

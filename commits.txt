@@ -1,3 +1,9 @@
+commit 85bfe6eea1eca7687f9f6cacddee103d7d38dc4c
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 5 09:26:36 2016 -0500
+
+    maquetado sección app
+
 commit 7a538819ec4ca20f96195bad370fee877f1beca8
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Jul 4 16:16:59 2016 -0500
