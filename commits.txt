@@ -1,3 +1,9 @@
+commit 7a538819ec4ca20f96195bad370fee877f1beca8
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 4 16:16:59 2016 -0500
+
+    maquetado seccion Fin de semana
+
 commit 6b23b54a28db20b6e16181a970abd7e6899bd4cf
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Jul 4 15:45:05 2016 -0500

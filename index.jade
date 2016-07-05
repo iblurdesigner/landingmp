@@ -104,7 +104,32 @@ html(lang='en')
       .row.center
         botton.btnEntrar entrar
     .main-container
-      img(src="img/mobile/parrillada.jpg", srcset="img/mobile/parrillada.jpg 1x img/mobile/parrillada2x.jpg 2x",alt="")      
+      img(srcset="img/mobile/parrillada.jpg 1x, img/mobile/parrillada2x.jpg 2x", width="100%")
+    
+    <!-- SECCION APP-->
+    .main-container
+      .row
+        h2.col.s12.textOran Y LO MEJOR DE TODO!
+        p.col.s12.textGris
+          | Tus cortes están al alcance de un solo click
+    .main-container.madera
+      .iphone
+      .container
+        .col.s12.center
+          p Con nuestra APP podrás hacer tus pedidos desde la comodidad de tu hogar, o dónde quiera que estés! <br> Descarga la app Carnivery tanto para Android como para iOS.
+      .row.center
+        .col.s6
+        img(src="img/svg/gPlay.svg", alt="")
+        .col.s6
+        img(src="img/svg/appStore.svg", alt="")
+    .main-container
+      .container.center
+        p | O si prefieres puedes llamarnos a nuestra línea exclusiva de atención a cliente:
+        .center
+          img(src="img/svg/1800.svg", alt="")  
+    
+    <!-- SECCION LINEA INDUSTRY-->
+          
     script.
       $( document ).ready(function(){
       $(".dropdown-button").dropdown();

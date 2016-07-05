@@ -2,6 +2,9 @@ test(color=red)
 	border solid 1px color
 	
 @import 'https://fonts.googleapis.com/css?family=Glegoo:400,700';	
+/*COLOR NATANJA MEATPRO PARA TEXTO	*/
+$colorMP = #F9A81A				
+$colorGris = #8c8c8c
 	
 body
 	font-family 'Glegoo'
@@ -25,10 +28,11 @@ body
 .azul
 	border solid 1px blue
 .alfa
-	border solid .1px rgba(0, 0, 0, 0)	
-		
-/*COLOR NATANJA MEATPRO PARA TEXTO	*/
-$colorMP = #F9A81A				
+	border solid .1px rgba(0, 0, 0, 0)
+.textOran
+	color $colorMP
+.textGris
+	color $colorGris			
 	
 .centrar
 	display flex
@@ -139,7 +143,15 @@ $colorMP = #F9A81A
 	background-position center, center
 	background-repeat no-repeat
 	width 80vw
-	height 227px	
+	height 227px
+
+/*SECCION APP*/
+.iphone
+	background-image url('../img/mobile/iPhoneCarnivery@2x.png')
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height 490px
 /*	
 @media screen and (max-width: 320px)
 	.carHead
