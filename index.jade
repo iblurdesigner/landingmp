@@ -44,7 +44,7 @@ html(lang='en')
           h2.subti3.center Nuestras Líneas
         .row.center
           .col.s6.logo
-            img(src='img/svg/logoIndustry.svg', alt='')
+            img.sombra(src='img/svg/logoIndustry.svg', alt='')
           .col.s6.logo
             img(src='img/mobile/logoCarnivery@2x.png', alt='')
           .col.s12
@@ -129,14 +129,32 @@ html(lang='en')
           img(src="img/svg/1800.svg", alt="")  
     
     <!-- SECCION LINEA INDUSTRY-->
-    .main-container
-      .row
-        img(src="img/svg/logoIndustry.svg", alt="")
+    .main-container.fpresentacion.alfa
+      .row.center
+        img.sombra(src="img/svg/logoIndustry.svg", alt="", width="70%")
       .row.center
         p.col.s12 Procesamos, comercializamos y desarrollamos productos cárnicos inocuos de alta calidad, al alcance de todos los segmentos del sector HORECA e industrial en Ecuador
       .row.center
         botton.btnEntrar entrar
-        
+
+    <!-- SECCION LINEAS DE PRODUCTOS-->
+    .main-container
+      .row.barraNegra
+        p LINEAS DE PRODUCTOS
+      .row.rojo
+        .col.s6.rosado.center
+          img(src="img/svg/icoRes.svg", alt="", width="90%")
+          p RES
+        .col.s6.rosado.center  
+          img(src="img/svg/icoCerdo.svg", alt="", width="90%")
+          p CERDO
+      .row.verde
+        .col.s6.rosado.center
+          img(src="img/svg/icoPollo.svg", alt="", width="90%")
+          p POLLO
+        .col.s6.rosado.center  
+          img(src="img/svg/icoCharcu.svg", alt="", width="90%")
+          p CHARCUTERÍA
           
     script.
       $( document ).ready(function(){

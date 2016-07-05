@@ -1,3 +1,9 @@
+commit 6533527cab4e2de27d794e9eab16a8935b9e3571
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 5 14:12:06 2016 -0500
+
+    maquetado sección introduccion a industry
+
 commit 85bfe6eea1eca7687f9f6cacddee103d7d38dc4c
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Jul 5 09:26:36 2016 -0500
