@@ -1,3 +1,9 @@
+commit 25e70dccc04fe2c65d6c5d8b0bd9dc11f9cb87b7
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Jul 6 10:00:32 2016 -0500
+
+    Maquetado footer
+
 commit 2073f63b933ffdf1be7e830211af79c92791b544
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Jul 5 16:23:34 2016 -0500

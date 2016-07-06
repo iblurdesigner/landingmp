@@ -8,8 +8,12 @@ html(lang='en')
     link(rel='stylesheet', href='css/estilos.css')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
   body
-    nav.sombraNav
-      .container
+    nav.navmenu
+      .nav-wrapper
+        a.brand-logo.logoNav(href='#')
+          img(src='img/svg/logoMeatPro.svg', alt='')
+        a.button-collapse(href="#", data-activates="mobile")
+          i.material-icons.textOran menu
         // Dropdown Structure
         ul#dropdown1.dropdown-content
           li
@@ -17,22 +21,33 @@ html(lang='en')
           li.divider
           li
             a(href='#!') Fin de semana
-        nav.navmenu
-          .nav-wrapper
-            a.brand-logo.logoNav(href='#!')
-              img(src='img/svg/logoMeatPro.svg', alt='')
-            ul.right.hide-on-med-and-down
-              li
-                a(href='#!') Empresa
-              li
-                a(href='#!') Industry
-              // Dropdown Trigger
-              li
-                a.dropdown-button(href='#!', data-activates='dropdown1')
-                  | Carnivery
-                  i.material-icons.right arrow_drop_down
-              li
-                a(href='#!') Contáctenos
+        // icono hamburguesa    
+        ul.right.hide-on-med-and-down
+          li
+            a(href='sass.html') Empresa
+          li
+            a(href='badges.html') Industry
+          // Dropdown Trigger
+          li
+            a.dropdown-button(href='#!', data-activates='dropdown1')
+              | Carnivery
+              i.material-icons.right arrow_drop_down  
+          li
+            a(href='collapsible.html') Contáctenos  
+        ul(id="mobile", class="side-nav")
+          li
+            a(href='sass.html') Empresa
+          li
+            a(href='badges.html') Industry
+          // Dropdown Trigger
+          li
+            a.dropdown-button(href='#!', data-activates='dropdown1')
+              | Carnivery
+              i.material-icons.right arrow_drop_down   
+          li
+            a(href='collapsible.html') Contáctenos
+
+    <!-- MEATPRO INTRODUCCION-->
     .main-container.fpresentacion
       .container
         .row
@@ -180,9 +195,9 @@ html(lang='en')
     footer.page-footer.pieMP
       .container
         .row
-          .col.l3.s12.hide-on-small-only
+          .col.m3.l3.s12.hide-on-small-only
             img(srcset="img/svg/logoMeatPro.svg")
-          .col.l3.s6
+          .col.m3.l3.s6
             a(href="#") Inicio<br>
             a(href="#") Carne de Res<br>
             a(href="#") Carne de Cerdo<br>
@@ -190,14 +205,14 @@ html(lang='en')
             a(href="#") Embutidos<br>
             a(href="#") Linea Día Día<br>
             a(href="#") Linea Fin de Semana<br>
-          .col.l3.s6
+          .col.m3.l3.s6
             a(href="#") Nuestra Empresa<br>
             a(href="#") Acerca de MP Group<br>
             a(href="#") Linea Industry<br>
             a(href="#") Food Service<br>
             a(href="#") Certificado de Calidad<br>
             a(href="#") Permisos<br>
-          .col.l3.s6
+          .col.m3.l3.s6
             a(href="#") Mi cuenta<br>
             a(href="#") Mi pedido<br>
             a(href="#") Acerca de Carnivery<br>
@@ -209,9 +224,8 @@ html(lang='en')
         .footer-copyright
           .container © 2016 Copyright | Meat Pro S.A.
     <!-- JAVA SCRIPT NECESARIOS-->
-    script.
-      $( document ).ready(function(){
-      $(".dropdown-button").dropdown();
-      });
     script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
+    script.
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();

@@ -9,27 +9,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   </head>
   <body>
-    <nav class="sombraNav">
-      <div class="container">
+    <nav class="navmenu">
+      <div class="nav-wrapper"><a href="#" class="brand-logo logoNav"><img src="img/svg/logoMeatPro.svg" alt=""></a><a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons textOran">menu</i></a>
         <!-- Dropdown Structure-->
         <ul id="dropdown1" class="dropdown-content">
           <li><a href="#!">Día Día</a></li>
           <li class="divider"></li>
           <li><a href="#!">Fin de semana</a></li>
         </ul>
-        <nav class="navmenu">
-          <div class="nav-wrapper"><a href="#!" class="brand-logo logoNav"><img src="img/svg/logoMeatPro.svg" alt=""></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#!">Empresa</a></li>
-              <li><a href="#!">Industry</a></li>
-              <!-- Dropdown Trigger-->
-              <li><a href="#!" data-activates="dropdown1" class="dropdown-button">Carnivery<i class="material-icons right">arrow_drop_down</i></a></li>
-              <li><a href="#!">Contáctenos</a></li>
-            </ul>
-          </div>
-        </nav>
+        <!-- icono hamburguesa    -->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Empresa</a></li>
+          <li><a href="badges.html">Industry</a></li>
+          <!-- Dropdown Trigger-->
+          <li><a href="#!" data-activates="dropdown1" class="dropdown-button">Carnivery<i class="material-icons right">arrow_drop_down  </i></a></li>
+          <li><a href="collapsible.html">Contáctenos  </a></li>
+        </ul>
+        <ul id="mobile" class="side-nav">
+          <li><a href="sass.html">Empresa</a></li>
+          <li><a href="badges.html">Industry</a></li>
+          <!-- Dropdown Trigger-->
+          <li><a href="#!" data-activates="dropdown1" class="dropdown-button">Carnivery<i class="material-icons right">arrow_drop_down   </i></a></li>
+          <li><a href="collapsible.html">Contáctenos</a></li>
+        </ul>
       </div>
-    </nav>
+    </nav><!-- MEATPRO INTRODUCCION-->
     <div class="main-container fpresentacion">
       <div class="container">
         <div class="row">
@@ -184,10 +188,10 @@
     <footer class="page-footer pieMP">
       <div class="container">
         <div class="row">
-          <div class="col l3 s12 hide-on-small-only"><img srcset="img/svg/logoMeatPro.svg"></div>
-          <div class="col l3 s6"><a href="#">Inicio<br></a><a href="#">Carne de Res<br></a><a href="#">Carne de Cerdo<br></a><a href="#">Carne de Pollo<br></a><a href="#">Embutidos<br></a><a href="#">Linea Día Día<br></a><a href="#">Linea Fin de Semana<br></a></div>
-          <div class="col l3 s6"><a href="#">Nuestra Empresa<br></a><a href="#">Acerca de MP Group<br></a><a href="#">Linea Industry<br></a><a href="#">Food Service<br></a><a href="#">Certificado de Calidad<br></a><a href="#">Permisos<br></a></div>
-          <div class="col l3 s6"><a href="#">Mi cuenta<br></a><a href="#">Mi pedido<br></a><a href="#">Acerca de Carnivery<br></a><a href="#">Nuestros servicios<br></a><a href="#">Politicas de privacidad<br></a><a href="#">Atención al cliente<br></a></div>
+          <div class="col m3 l3 s12 hide-on-small-only"><img srcset="img/svg/logoMeatPro.svg"></div>
+          <div class="col m3 l3 s6"><a href="#">Inicio<br></a><a href="#">Carne de Res<br></a><a href="#">Carne de Cerdo<br></a><a href="#">Carne de Pollo<br></a><a href="#">Embutidos<br></a><a href="#">Linea Día Día<br></a><a href="#">Linea Fin de Semana<br></a></div>
+          <div class="col m3 l3 s6"><a href="#">Nuestra Empresa<br></a><a href="#">Acerca de MP Group<br></a><a href="#">Linea Industry<br></a><a href="#">Food Service<br></a><a href="#">Certificado de Calidad<br></a><a href="#">Permisos<br></a></div>
+          <div class="col m3 l3 s6"><a href="#">Mi cuenta<br></a><a href="#">Mi pedido<br></a><a href="#">Acerca de Carnivery<br></a><a href="#">Nuestros servicios<br></a><a href="#">Politicas de privacidad<br></a><a href="#">Atención al cliente<br></a></div>
           <div class="col l3 s6 hide-on-med-and-up"><img srcset="img/svg/logoMeatPro.svg"></div>
         </div>
         <div class="footer-copyright">
@@ -195,12 +199,11 @@
         </div>
       </div>
     </footer><!-- JAVA SCRIPT NECESARIOS-->
-    <script>
-      $( document ).ready(function(){
-      $(".dropdown-button").dropdown();
-      });
-    </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script>
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown();
+    </script>
   </body>
 </html>
