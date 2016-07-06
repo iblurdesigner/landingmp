@@ -1,3 +1,9 @@
+commit 2073f63b933ffdf1be7e830211af79c92791b544
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 5 16:23:34 2016 -0500
+
+    maquetado fichas food services e inocuidad
+
 commit 91eee436dc4c21a0d0e71bae0ba17cb753975525
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Jul 5 16:05:46 2016 -0500
