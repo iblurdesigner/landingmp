@@ -8,44 +8,45 @@ html(lang='en')
     link(rel='stylesheet', href='css/estilos.css')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
   body
-    nav.navmenu
-      .nav-wrapper
-        a.brand-logo.logoNav(href='#')
-          img(src='img/svg/logoMeatPro.svg', alt='')
-        a.button-collapse(href="#", data-activates="mobile")
-          i.material-icons.textOran menu
-        // Dropdown Structure
-        ul#dropdown1.dropdown-content
-          li
-            a(href='#!') Día Día
-          li.divider
-          li
-            a(href='#!') Fin de semana
-        // icono hamburguesa    
-        ul.right.hide-on-med-and-down
-          li
-            a(href='sass.html') Empresa
-          li
-            a(href='badges.html') Industry
-          // Dropdown Trigger
-          li
-            a.dropdown-button(href='#!', data-activates='dropdown1')
-              | Carnivery
-              i.material-icons.right arrow_drop_down  
-          li
-            a(href='collapsible.html') Contáctenos  
-        ul(id="mobile", class="side-nav")
-          li
-            a(href='sass.html') Empresa
-          li
-            a(href='badges.html') Industry
-          // Dropdown Trigger
-          li
-            a.dropdown-button(href='#!', data-activates='dropdown1')
-              | Carnivery
-              i.material-icons.right arrow_drop_down   
-          li
-            a(href='collapsible.html') Contáctenos
+    .navbar-fixed
+      nav.navmenu
+        .nav-wrapper
+          a.brand-logo.logoNav(href='#')
+            img(src='img/svg/logoMeatPro.svg', alt='')
+          a.button-collapse.navW(href="#", data-activates="mobile")
+            i.material-icons.textOran menu
+          // Dropdown Structure
+          ul#dropdown1.dropdown-content
+            li
+              a(href='#!') Día Día
+            li.divider
+            li
+              a(href='#!') Fin de semana
+          // icono hamburguesa    
+          ul.right.hide-on-med-and-down
+            li
+              a(href='sass.html') Empresa
+            li
+              a(href='badges.html') Industry
+            // Dropdown Trigger
+            li
+              a.dropdown-button(href='#!', data-activates='dropdown1')
+                | Carnivery
+                i.material-icons.right arrow_drop_down  
+            li
+              a(href='collapsible.html') Contáctenos  
+          ul(id="mobile", class="side-nav")
+            li
+              a(href='sass.html') Empresa
+            li
+              a(href='badges.html') Industry
+            // Dropdown Trigger
+            li
+              a.dropdown-button(href='#!', data-activates='dropdown1')
+                | Carnivery
+                i.material-icons.right arrow_drop_down   
+            li
+              a(href='collapsible.html') Contáctenos
 
     <!-- MEATPRO INTRODUCCION-->
     .main-container.fpresentacion
@@ -59,7 +60,7 @@ html(lang='en')
           h2.subti3.center Nuestras Líneas
         .row.center
           .col.s6.logo
-            img.sombra(src='img/svg/logoIndustry.svg', alt='')
+            img.sombra(src='img/logoIndustry.png', alt='')
           .col.s6.logo
             img(src='img/mobile/logoCarnivery@2x.png', alt='')
           .col.s12
@@ -146,7 +147,7 @@ html(lang='en')
     <!-- SECCION LINEA INDUSTRY-->
     .main-container.fpresentacion.alfa
       .row.center
-        img.sombra(src="img/svg/logoIndustry.svg", alt="", width="70%")
+        img.sombra(src="img/logoIndustry.png", alt="", width="70%")
       .row.center
         p.col.s12 Procesamos, comercializamos y desarrollamos productos cárnicos inocuos de alta calidad, al alcance de todos los segmentos del sector HORECA e industrial en Ecuador
       .row.center

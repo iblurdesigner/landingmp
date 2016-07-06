@@ -71,7 +71,13 @@ body
 	border-radius 20px
 	background-color $colorMP
 	padding .6rem 2.1rem
-		
+
+.navW
+	margin-left 1rem
+	
+.navbar-fixed
+	margin 0
+
 .navmenu
 	width 100%
 	box-shadow none
@@ -83,6 +89,7 @@ body
 .navmenu ul a:hover
 	background-color #F9A81A
 	color white
+	
 .logoNav
 	width 189px
 	
@@ -100,6 +107,7 @@ body
 	background-position center
 	background-repeat no-repeat
 	width 100vw
+	
 
 /*SECCION CARNIVERY*/	
 .carHead
@@ -174,7 +182,16 @@ body
 	color black
 	font-size 1rem
 	line-height 3rem
-	
+
+@media screen and (min-width: 769px)
+	.fpresentacion
+		background-image url('../img/fInicio.jpg')
+		border solid 1px black
+
+@media screen and (min-width: 992px)
+	.navW
+		margin-left 0		
+		border solid 1px red	
 /*	
 @media screen and (max-width: 320px)
 	.carHead

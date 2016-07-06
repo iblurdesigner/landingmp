@@ -36,6 +36,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/fInicio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77548,
+		"inputAbbreviatedPath": "\/img\/fInicio.jpg",
+		"outputAbbreviatedPath": "\/img\/fInicio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/inicio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -54,6 +65,17 @@
 		"initialSize": 11615,
 		"inputAbbreviatedPath": "\/img\/logDia.png",
 		"outputAbbreviatedPath": "\/img\/logDia.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logoIndustry.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41014,
+		"inputAbbreviatedPath": "\/img\/logoIndustry.png",
+		"outputAbbreviatedPath": "\/img\/logoIndustry.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
