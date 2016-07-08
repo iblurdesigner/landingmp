@@ -27,6 +27,17 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/img\/cfinde.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555148,
+		"inputAbbreviatedPath": "\/img\/cfinde.png",
+		"outputAbbreviatedPath": "\/img\/cfinde.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/estilos.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -35,6 +46,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/fCarnivery.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 582437,
+		"inputAbbreviatedPath": "\/img\/fCarnivery.jpg",
+		"outputAbbreviatedPath": "\/img\/fCarnivery.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/fInicio.jpg": {
 		"fileType": 16384,
@@ -47,28 +69,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/inicio.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 69523,
-		"inputAbbreviatedPath": "\/img\/inicio.jpg",
-		"outputAbbreviatedPath": "\/img\/inicio.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logDia.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11615,
-		"inputAbbreviatedPath": "\/img\/logDia.png",
-		"outputAbbreviatedPath": "\/img\/logDia.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/logoIndustry.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -76,6 +76,17 @@
 		"initialSize": 41014,
 		"inputAbbreviatedPath": "\/img\/logoIndustry.png",
 		"outputAbbreviatedPath": "\/img\/logoIndustry.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/maderaG.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402506,
+		"inputAbbreviatedPath": "\/img\/maderaG.jpg",
+		"outputAbbreviatedPath": "\/img\/maderaG.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -362,6 +373,28 @@
 		"initialSize": 179291,
 		"inputAbbreviatedPath": "\/img\/mobile\/parrillada2x.jpg",
 		"outputAbbreviatedPath": "\/img\/mobile\/parrillada2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/paquete.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21444,
+		"inputAbbreviatedPath": "\/img\/paquete.jpg",
+		"outputAbbreviatedPath": "\/img\/paquete.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/trinche.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375113,
+		"inputAbbreviatedPath": "\/img\/trinche.png",
+		"outputAbbreviatedPath": "\/img\/trinche.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

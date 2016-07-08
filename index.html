@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   </head>
   <body>
-    <div class="navbar-fixed">
+    <div class="navbar-fixed sombra">
       <nav class="navmenu">
         <div class="nav-wrapper"><a href="#" class="brand-logo logoNav"><img src="img/svg/logoMeatPro.svg" alt=""></a><a href="#" data-activates="mobile" class="button-collapse navW"><i class="material-icons textOran">menu</i></a>
           <!-- Dropdown Structure-->
@@ -36,7 +36,7 @@
         </div>
       </nav>
     </div><!-- MEATPRO INTRODUCCION-->
-    <div class="main-container fpresentacion">
+    <div class="main-container fpresentacion alfa">
       <div class="container">
         <div class="row">
           <h1 class="col s12 resumen center">Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de: Res, Cerdo, Pollo y Charcutería. <br>Nuestra línea Industry se enfoca en todo el sector HORECA. (Hoteles, Caterings, Restaurantes).
@@ -66,39 +66,47 @@
     </div><!-- DIA A DIA-->
     <div class="main-container madera alfa">
       <div class="container">
-        <div class="row">
-          <figure class="logo"><img src="img/svg/logDia.svg"></figure>
-        </div>
-        <div class="row">
-          <h3 class="col s12 subtiNegro">LISTO PARA RESOLVERTE EL DIA</h3>
-        </div>
-        <div class="row">
-          <p class="col s12">Muchas veces no sabes que preparar para cada día. No te preocupes, puedes pedir tus cortes y planificar toda una semana. Así tendrás cero estrés.</p>
-        </div>
-        <div class="row center">
-          <botton class="btnEntrar">entrar</botton>
-        </div>
-        <div class="cajaBlanca sombra">
-          <figure class="centrar"><img src="img/mobile/cfinde.png" srcset="img/mobile/cfinde@2x.png 2x"></figure>
-          <div class="container">
-            <div class="row">
-              <h3 class="subti2">FRESCO, RAPIDO Y LISTO PARA SERVIR</h3>
-            </div>
-            <div class="row">
-              <p>Y lo mejor de todo sin salir de casa, con los cortes que elijas podrás preparar los platos que tanto desean los tuyos. Deleita el paladar!</p>
-            </div>
-            <div class="row center">
-              <div class="col s4"><img src="img/svg/icoRes.svg" alt="">
-                <p>Res  </p>
+        <div id="headDia" class="row"><!-- ESTA FILA CONTIENE A TODO-->
+          <div class="col s12 m8 l8"><!--contiene todo el lado izq-->
+            <div class="row"><!-- ESTA FILA CONTIENE al logo y la descripcion-->
+              <div class="col m3"><img id="logoDia" src="img/svg/logDia.svg" width="150px"></div>
+              <div class="col m8 offset-m1 offset-l1">
+                <div class="row">
+                  <h3 class="col s12 subtiNegro">LISTO PARA RESOLVERTE EL DIA</h3>
+                  <p class="col s12">Muchas veces no sabes que preparar para cada día. No te preocupes, puedes pedir tus cortes y planificar toda una semana. Así tendrás cero estrés.</p>
+                </div>
+                <div class="row center">
+                  <botton class="btnEntrar">entrar</botton>
+                </div>
               </div>
-              <div class="col s4"><img src="img/svg/icoCerdo.svg" alt="">
-                <p>Cerdo</p>
-              </div>
-              <div class="col s4"><img src="img/svg/icoPollo.svg" alt="">
-                <p>Pollo</p>
+            </div><!-- CAJA BLANCA EN OTRA FILA-->
+            <div class="row cajaBlanca sombra"><!-- ESTA FILA CONTIENE la caja--><img src="img/cfinde.png" width="100%">
+              <div class="container cont90">
+                <div class="col s12 l6">
+                  <h3 class="subti2">FRESCO, RAPIDO Y LISTO PARA SERVIR</h3>
+                  <p>Y lo mejor de todo sin salir de casa, con los cortes que elijas podrás preparar los platos que tanto desean los tuyos. Deleita el paladar!</p>
+                </div>
+                <div class="col s12 l6">
+                  <div class="row hide-on-med-and-down center">
+                    <div class="col l6"><img src="img/paquete.jpg" alt="" width="80%"></div>
+                    <div class="col l6"> <img src="img/paquete.jpg" alt="" width="80%"></div>
+                  </div>
+                  <div class="row l12 center">
+                    <div class="col s4"><img src="img/svg/icoRes.svg" alt="" class="sizeAnima">
+                      <p class="textRes">Res  </p>
+                    </div>
+                    <div class="col s4"><img src="img/svg/icoCerdo.svg" alt="" class="sizeAnima">
+                      <p class="textCerdo">Cerdo</p>
+                    </div>
+                    <div class="col s4"><img src="img/svg/icoPollo.svg" alt="" class="sizeAnima">
+                      <p class="textOran">Pollo</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col m3 l3 hide-on-small-only trinche offset-m1 offset-l1"><!--contiene todo el lado derecho trinche--></div>
         </div>
       </div>
     </div><!-- SECCION FIN DE SEMANA-->           

@@ -1,3 +1,9 @@
+commit 5e42d3775860d4c7eeddf8839c7b499fce8f95d1
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Jul 6 16:59:33 2016 -0500
+
+    Arreglos en el navBar
+
 commit 3bcbe28e8ee5d1404f68953f4e12128bda5de357
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Wed Jul 6 14:00:59 2016 -0500
