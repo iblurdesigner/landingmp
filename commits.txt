@@ -1,3 +1,9 @@
+commit 0c30323ea24625000be23c07663d73ae86ab1959
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Jul 8 11:32:59 2016 -0500
+
+    Responsive seccion Dia dia
+
 commit 5e42d3775860d4c7eeddf8839c7b499fce8f95d1
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Wed Jul 6 16:59:33 2016 -0500

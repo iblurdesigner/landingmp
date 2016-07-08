@@ -120,15 +120,23 @@ html(lang='en')
                       p.textOran Pollo
           .col.m3.l3.hide-on-small-only.trinche.offset-m1.offset-l1 <!--contiene todo el lado derecho trinche-->
 
-    <!-- SECCION FIN DE SEMANA-->           
+    <!-- SECCION FIN DE SEMANA-->        
     .main-container.fondoFinde
       .container.logoFinde
-    .container
+    .container#textFinde
       p.center Ahora puedes hacer la parrillada con todos tus amigos y el producto estará listo para prepararse. Con la línea Fin de semana tendrás una variedad de productos para ese asado que tienes planificado con tu familia o amigos. <br> Solo tienes que llamarnos!
       .row.center
         botton.btnEntrar entrar
-    .main-container
-      img(srcset="img/mobile/parrillada.jpg 1x, img/mobile/parrillada2x.jpg 2x", width="100%")
+    // image parrillada    
+    .main-container.sepUp
+      .container
+        .row.m12.l5
+          .col.m4
+            img.hide-on-small-only(src="img/parri01.jpg", alt="", width="100%")
+          .col.m4
+            img(src="img/parri02.jpg", width="100%")
+          .col.m4
+            img.hide-on-small-only(src="img/parri03.jpg", alt="", width="100%")  
     
     <!-- SECCION APP-->
     .main-container

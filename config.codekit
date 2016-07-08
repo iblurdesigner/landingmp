@@ -69,6 +69,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/fondoFinde.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411441,
+		"inputAbbreviatedPath": "\/img\/fondoFinde.jpg",
+		"outputAbbreviatedPath": "\/img\/fondoFinde.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logoIndustry.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -87,17 +98,6 @@
 		"initialSize": 402506,
 		"inputAbbreviatedPath": "\/img\/maderaG.jpg",
 		"outputAbbreviatedPath": "\/img\/maderaG.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/App Store.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3906,
-		"inputAbbreviatedPath": "\/img\/mobile\/App Store.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/App Store.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -146,28 +146,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/cfinde.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 69737,
-		"inputAbbreviatedPath": "\/img\/mobile\/cfinde.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/cfinde.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/cfinde@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 265487,
-		"inputAbbreviatedPath": "\/img\/mobile\/cfinde@2x.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/cfinde@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mobile\/fAbajo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -201,17 +179,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mobile\/flecha.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 842,
-		"inputAbbreviatedPath": "\/img\/mobile\/flecha.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/flecha.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/mobile\/fondoInicio@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -241,61 +208,6 @@
 		"initialSize": 39231,
 		"inputAbbreviatedPath": "\/img\/mobile\/foodServices@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/mobile\/foodServices@2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/google Play.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4224,
-		"inputAbbreviatedPath": "\/img\/mobile\/google Play.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/google Play.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/Group 14.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22058,
-		"inputAbbreviatedPath": "\/img\/mobile\/Group 14.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/Group 14.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/Group.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7860,
-		"inputAbbreviatedPath": "\/img\/mobile\/Group.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/Group.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/icon_entrar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2490,
-		"inputAbbreviatedPath": "\/img\/mobile\/icon_entrar.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/icon_entrar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/icon_ver.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2177,
-		"inputAbbreviatedPath": "\/img\/mobile\/icon_ver.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/icon_ver.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -384,6 +296,39 @@
 		"initialSize": 21444,
 		"inputAbbreviatedPath": "\/img\/paquete.jpg",
 		"outputAbbreviatedPath": "\/img\/paquete.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/parri01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67583,
+		"inputAbbreviatedPath": "\/img\/parri01.jpg",
+		"outputAbbreviatedPath": "\/img\/parri01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/parri02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67340,
+		"inputAbbreviatedPath": "\/img\/parri02.jpg",
+		"outputAbbreviatedPath": "\/img\/parri02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/parri03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48239,
+		"inputAbbreviatedPath": "\/img\/parri03.jpg",
+		"outputAbbreviatedPath": "\/img\/parri03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
