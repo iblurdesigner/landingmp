@@ -1,3 +1,9 @@
+commit 9b98d0f909008b17d9d9a72eecb3db3d63d243f0
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 11 10:49:55 2016 -0500
+
+    responsive lineas e info de industry
+
 commit 2716780e81d9d9823a40facfce8f431bf031c817
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Jul 11 10:34:50 2016 -0500

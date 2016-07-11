@@ -92,8 +92,8 @@ body
 .navW
 	margin-left 1rem
 	
-.navbar-fixed
-	margin 0
+/*.navbar-fixed
+	margin 0 auto*/
 
 .navmenu
 	width 100%
@@ -106,6 +106,8 @@ body
 .navmenu ul a:hover
 	background-color #F9A81A
 	color white
+.nav-wrapper
+	width 80%	
 	
 .logoNav
 	width 189px
@@ -243,10 +245,15 @@ body
 	
 /*MOBILE QUERIES*/	
 @media screen and (max-width: 760px)
+	.nav-wrapper
+		width 100%
 	.cajaiPhone
 		background-color rgba(255, 255, 255, 0.57)
 
-/*TABLET QUERIES*/		
+/*TABLET QUERIES*/
+@media screen and (min-width: 768px) and (max-width: 991px)
+	.nav-wrapper
+		width 100%
 @media screen and (min-width: 768px)
 	.fpresentacion
 		background-image url('../img/fInicio.jpg')
