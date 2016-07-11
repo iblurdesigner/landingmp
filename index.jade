@@ -124,7 +124,7 @@ html(lang='en')
     .main-container.fondoFinde
       .container.logoFinde
     .container#textFinde
-      p.center Ahora puedes hacer la parrillada con todos tus amigos y el producto estará listo para prepararse. Con la línea Fin de semana tendrás una variedad de productos para ese asado que tienes planificado con tu familia o amigos. <br> Solo tienes que llamarnos!
+      p.center#textFinde2 Ahora puedes hacer la parrillada con todos tus amigos y el producto estará listo para prepararse. Con la línea Fin de semana tendrás una variedad de productos para ese asado que tienes planificado con tu familia o amigos. <br> Solo tienes que llamarnos!
       .row.center
         botton.btnEntrar entrar
     // image parrillada    
@@ -189,22 +189,23 @@ html(lang='en')
     .main-container
       .container
         .divider
-        .row.center
-          h3.textOran FICHAS TÉCNICAS
-          img(src="img/mobile/ficha.jpg", alt="", width="90%")
-          p Encuentre todas las especificaciones de nuestros productos industriales.
-          botton.btnEntrar ver
-        .divider      
-        .row.center
-          h3.textOran FOOD & SERVICES
-          img(srcset="img/mobile/foodServices.jpg 1x, img/mobile/foodServices@2x.jpg 2x", alt="", width="90%")
-          p Comercializamos los más finos cortes de carne de res, cerdo, pollo y charcutería para abastecer a caterings, hoteles y restaurantes en el país.
-          botton.btnEntrar ver
-        .divider      
-        .row.center  
-          h3.textOran INOCUIDAD
-          img(srcset="img/mobile/bpm.png 1x, img/mobile/bpm@2x.png 2x", alt="", width="65%")
-          p Nuestros procesos nos permiten tener eficiencia, diversidad, calidad e INOCUIDAD en nuestros productos. Contamos con la certificación de Buenas Prácticas de Manofactura.
+        .row  
+          .col.s12.m4
+            h3.textOran FICHAS TÉCNICAS
+            img(src="img/mobile/ficha.jpg", alt="", width="90%")
+            p.textPeque Encuentre todas las especificaciones de nuestros productos industriales.
+            botton.btnEntrar.sepUp ver
+          .divider      
+          .col.s12.m4
+            h3.textOran FOOD & SERVICES
+            img(srcset="img/mobile/foodServices.jpg 1x, img/mobile/foodServices@2x.jpg 2x", alt="", width="90%")
+            p.textPeque Comercializamos los más finos cortes de carne de res, cerdo, pollo y charcutería para abastecer a caterings, hoteles y restaurantes en el país.
+            botton.btnEntrar.sepUp ver
+          .divider      
+          .col.s12.m4  
+            h3.textOran INOCUIDAD
+            img(srcset="img/mobile/bpm.png 1x, img/mobile/bpm@2x.png 2x", alt="", width="65%")
+            p.textPeque Nuestros procesos nos permiten tener eficiencia, diversidad, calidad e INOCUIDAD en nuestros productos. Contamos con la certificación de Buenas Prácticas de Manofactura.
 
     footer.page-footer.pieMP
       .container

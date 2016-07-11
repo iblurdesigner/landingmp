@@ -1,3 +1,15 @@
+commit 2716780e81d9d9823a40facfce8f431bf031c817
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 11 10:34:50 2016 -0500
+
+    responsive seccion intro industry
+
+commit 52f03e6dfbbad40ade8a852e39eb35aca04f2c89
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 11 10:27:13 2016 -0500
+
+    responsive seccion app
+
 commit e595d8a7d328c00b5f8d26943c9094a957468f30
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Jul 8 12:36:35 2016 -0500
