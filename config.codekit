@@ -80,6 +80,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/iPhone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 696047,
+		"inputAbbreviatedPath": "\/img\/iPhone.png",
+		"outputAbbreviatedPath": "\/img\/iPhone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logoIndustry.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -208,17 +219,6 @@
 		"initialSize": 39231,
 		"inputAbbreviatedPath": "\/img\/mobile\/foodServices@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/mobile\/foodServices@2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/mobile\/iPhoneCarnivery.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 226469,
-		"inputAbbreviatedPath": "\/img\/mobile\/iPhoneCarnivery.png",
-		"outputAbbreviatedPath": "\/img\/mobile\/iPhoneCarnivery.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

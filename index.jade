@@ -137,58 +137,53 @@ html(lang='en')
             img(src="img/parri02.jpg", width="100%")
           .col.m4
             img.hide-on-small-only(src="img/parri03.jpg", alt="", width="100%")  
-    
     <!-- SECCION APP-->
-    .main-container
-      .row
-        h2.col.s12.textOran Y LO MEJOR DE TODO!
-        p.col.s12.textGris
-          | Tus cortes están al alcance de un solo click
     .main-container.madera
-      .iphone
-      .container
-        .col.s12.center
-          p Con nuestra APP podrás hacer tus pedidos desde la comodidad de tu hogar, o dónde quiera que estés! <br> Descarga la app Carnivery tanto para Android como para iOS.
-      .row.center
-        .col.s6
-        img(src="img/svg/gPlay.svg", alt="")
-        .col.s6
-        img(src="img/svg/appStore.svg", alt="")
-    .main-container
-      .container.center
-        p O si prefieres puedes llamarnos a nuestra línea exclusiva de atención a cliente:
-        .center
-          img(src="img/svg/1800.svg", alt="")  
+     .row
+      .col.m6.l7.iphone.hide-on-small-only
+      .col.m5.l4.sombra.sepUp.cajaiPhone <!-- CONTIENE la caja blanca-->
+        h3.col.s12.textOran.sombraText Y LO MEJOR DE TODO!
+        p.col.s6.m12.textApp
+          | Tus cortes están al alcance de un solo click <br>
+          |Con nuestra APP podrás hacer tus pedidos desde la comodidad de tu hogar, o dónde quiera que estés! <br> Descarga la app Carnivery tanto para Android como para iOS.
+        .row.center
+          .col.s12.centrar2
+            img(src="img/svg/gPlay.svg", alt="", width="50%")
+            img(src="img/svg/appStore.svg", alt="", width="50%")
+          p.col.s12.textApp O si prefieres puedes llamarnos a nuestra línea exclusiva de atención a cliente:
+          .col.s12.center
+            img(src="img/svg/1800.svg", alt="", width="75%")         
+      .iphone.hide-on-med-and-up
     
     <!-- SECCION LINEA INDUSTRY-->
     .main-container.fpresentacion.alfa
-      .row.center
-        img.sombra(src="img/logoIndustry.png", alt="", width="70%")
-      .row.center
-        p.col.s12 Procesamos, comercializamos y desarrollamos productos cárnicos inocuos de alta calidad, al alcance de todos los segmentos del sector HORECA e industrial en Ecuador
-      .row.center
-        botton.btnEntrar entrar
+      .container
+        .sombra#logoIndustry
+        .row.center
+          p.col.s12 Procesamos, comercializamos y desarrollamos productos cárnicos inocuos de alta calidad, al alcance de todos los segmentos del sector HORECA e industrial en Ecuador
+        .row.center
+          botton.btnEntrar entrar
 
     <!-- SECCION LINEAS DE PRODUCTOS-->
-    .main-container
-      .row.barraNegra
-        p LINEAS DE PRODUCTOS
-      .row.rojo
-        .col.s6.rosado.center
-          img(src="img/svg/icoRes.svg", alt="", width="90%")
-          p RES
-        .col.s6.rosado.center  
-          img(src="img/svg/icoCerdo.svg", alt="", width="90%")
-          p CERDO
-      .row.verde
-        .col.s6.rosado.center
-          img(src="img/svg/icoPollo.svg", alt="", width="90%")
-          p POLLO
-        .col.s6.rosado.center  
-          img(src="img/svg/icoCharcu.svg", alt="", width="90%")
-          p CHARCUTERÍA
-      .divider
-
+    .main-container.barraNegra
+      p LINEAS DE PRODUCTOS
+      .container
+        .row.center
+          .col.s12.m6
+            .col.s6.m6
+              .icoRes
+              p Res  
+            .col.s6.m6
+              .icoCerdo
+              p Cerdo  
+          .col.s12.m6
+            .col.s6.m6
+              .icoPollo
+              p Pollo  
+            .col.s6.m6
+              .icoCharcu
+              p Charcutería     
+              
     <!-- SECCION FICHAS FOOD SERVICE INOCUIDAD-->
     .main-container
       .container

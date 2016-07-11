@@ -1,3 +1,9 @@
+commit e595d8a7d328c00b5f8d26943c9094a957468f30
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Jul 8 12:36:35 2016 -0500
+
+    responsive seccion fin de semana
+
 commit 0c30323ea24625000be23c07663d73ae86ab1959
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Jul 8 11:32:59 2016 -0500
