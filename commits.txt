@@ -1,3 +1,9 @@
+commit b4fd861fd8623385ab71cd05b6e05d06a8ffbffc
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Jul 14 10:38:08 2016 -0500
+
+    arreglos en el footer
+
 commit 8ab09a733c5a9332e69242b2fac02775583b5f51
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Jul 11 11:29:22 2016 -0500
