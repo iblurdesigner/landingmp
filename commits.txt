@@ -1,3 +1,9 @@
+commit 8ab09a733c5a9332e69242b2fac02775583b5f51
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 11 11:29:22 2016 -0500
+
+    arreglos en el nav y en la info de industry
+
 commit 9b98d0f909008b17d9d9a72eecb3db3d63d243f0
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Jul 11 10:49:55 2016 -0500
