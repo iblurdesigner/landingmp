@@ -7,7 +7,7 @@ html(lang='en')
     link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
     link(rel='stylesheet', href='css/estilos.css')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
-  body
+  body 
     .navbar-fixed.sombra
       nav.navmenu.centrar
         .nav-wrapper
@@ -42,9 +42,12 @@ html(lang='en')
               a(href='badges.html') Industry
             // Dropdown Trigger
             li
-              a.dropdown-button(href='#!', data-activates='dropdown1')
-                | Carnivery
-                i.material-icons.right arrow_drop_down   
+              a(href='#!') Carnivery
+                li
+                  a(href='#!') Día Día
+                li.divider
+                li
+                a(href='#!') Fin de semana
             li
               a(href='collapsible.html') Contáctenos
 
@@ -64,9 +67,10 @@ html(lang='en')
           .col.s6.logo
             img(src='img/mobile/logoCarnivery@2x.png', alt='')
           .col.s12
-            p Ver más
-            button
-              a
+            .row.center  
+              button.btnEntrar Ver más
+            .row.center
+              a  
                 img(src='img/mobile/fAbajo.png', alt='')
 
     <!-- CARNIVERY INTRODUCCION-->              
