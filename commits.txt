@@ -1,3 +1,21 @@
+commit 80c1e1ad28dc825e51f73fe71542fe47402bff67
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Sep 26 16:13:46 2016 -0500
+
+    seccion finde semana arreglada el texto
+
+commit f8d2532fcf64ad77c0d263b06d975be684cce3e0
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Sep 26 13:05:48 2016 -0500
+
+    volviendo a iniciar git
+
+commit 89ab9631c911f7e74c220a8b4b1f6da957bbbb42
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Jul 14 10:41:11 2016 -0500
+
+    commits actualizados
+
 commit b4fd861fd8623385ab71cd05b6e05d06a8ffbffc
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Thu Jul 14 10:38:08 2016 -0500

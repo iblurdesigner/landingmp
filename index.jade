@@ -68,13 +68,13 @@ html(lang='en')
             img(src='img/mobile/logoCarnivery@2x.png', alt='')
           .col.s12
             .row.center  
-              button.btnEntrar Ver más
+              a(href="#carHead").btnEntrar Ver más
             .row.center
-              a  
+              a(href="#carHead")  
                 img(src='img/mobile/fAbajo.png', alt='')
 
     <!-- CARNIVERY INTRODUCCION-->              
-    .main-container.carHead
+    .main-container.carHead#carHead
       .container
         .row
           p.col.s12.textCarnivery.sombraText
@@ -108,10 +108,10 @@ html(lang='en')
                     | Y lo mejor de todo sin salir de casa, con los cortes que elijas podrás preparar los platos que tanto desean los tuyos. Deleita el paladar!
                 .col.s12.l6
                   .row.hide-on-med-and-down.center
-                    .col.l6
-                      img(src="img/paquete.jpg", alt="", width="80%")
-                    .col.l6  
-                      img(src="img/paquete.jpg", alt="", width="80%")  
+                    //- .col.l6
+                    //-   img(src="img/paquete.jpg", alt="", width="80%")
+                    //- .col.l6  
+                    //-   img(src="img/paquete.jpg", alt="", width="80%")  
                   .row.l12.center
                     .col.s4
                       img.sizeAnima(src="img/svg/icoRes.svg", alt="")
@@ -210,33 +210,63 @@ html(lang='en')
 
     footer.page-footer.pieMP
       .container
-        .row
-          .col.m3.l3.s12.hide-on-small-only
-            img(srcset="img/svg/logoMeatPro.svg")
+        .row   
           .col.m3.l3.s6.textFooter
-            a(href="#") Inicio<br>
+            p.textOran Inicio<br>
+            h6.textBold Nuestro Productos<br>
             a(href="#") Carne de Res<br>
             a(href="#") Carne de Cerdo<br>
             a(href="#") Carne de Pollo<br>
             a(href="#") Embutidos<br>
             a(href="#") Linea Día Día<br>
             a(href="#") Linea Fin de Semana<br>
+            a(href="#") Contáctos<br>
+            h6.textBold Acerca de Carnivery<br>
+            a(href="#") ¿Qué es Carnivery?<br>
+            a(href="#") ¿Cómo funciona Carnivery?<br>
+            h6.textBold Acerca de MeatPro<br>
+            a(href="#") ¿Quienes Sómos?<br>
+            a(href="#") La familia MP Group<br>
+            a(href="#") Certificados de Calidad<br>
           .col.m3.l3.s6.textFooter
-            a(href="#") Nuestra Empresa<br>
-            a(href="#") Acerca de MP Group<br>
-            a(href="#") Linea Industry<br>
-            a(href="#") Food Service<br>
-            a(href="#") Certificado de Calidad<br>
-            a(href="#") Permisos<br>
+            p.textOran Blog<br>
+            a(href="#") Noticias Carnivery<br>
+            a(href="#") Mens Kitchen<br>
+            h6.textBold Preparación de carne<br>
+            a(href="#") A la brasa<br>
+            a(href="#") A la parrilla<br>
+            a(href="#") Sartén o frita<br>
+            a(href="#") Estofado<br>
+            h6.textBold Recetas para<br>
+            a(href="#") Carne de Res<br>
+            a(href="#") Carne de Cerdo<br>
+            a(href="#") Carne de Pollo<br>
+            a(href="#") Embutidos<br>
+            a(href="#") Salud y nutrición<br>
+            a(href="#") Salsas y condimentos<br>
           .col.m3.l3.s6.textFooter
-            a(href="#") Mi cuenta<br>
-            a(href="#") Mi pedido<br>
-            a(href="#") Acerca de Carnivery<br>
-            a(href="#") Nuestros servicios<br>
-            a(href="#") Politicas de privacidad<br>
-            a(href="#") Atención al cliente<br>
-          .col.l3.s6.hide-on-med-and-up
-            img(srcset="img/svg/logoMeatPro.svg")
+            p.textOran Usuario<br>
+            a(href="#") Carrito de compras<br>
+            h6.textBold Mi perfil<br>
+            a(href="#") Ingresar<br>
+            a(href="#") Mis compras<br>
+            a(href="#") Descargar Facturas<br>
+            a(href="#") Promociones<br>
+            h6.textBold ¿Eres nuevo en MeatPro?<br>
+            a(href="#") Registrarse en 3 pasos<br>
+            a(href="#") Seguridad y certificados<br>
+          .col.m3.l3.s6.textFooter
+            p.textOran Ayuda<br>
+            h6.textBold Preguntas Frecuentes<br>
+            a(href="#") ¿Cómo hago mi compra?<br>
+            a(href="#") ¿En cuánto tiempo llega mi pedido?<br>
+            h6.textBold Formas de pago<br>
+            a(href="#") Pago con tarjeta<br>
+            a(href="#") Pago con Paypal<br>
+            h6.textBold Política de Calidad<br>
+            a(href="#") Cancelaciones<br>
+            a(href="#") Consultas y sugerencias<br>
+            a(href="#") Política de privacidad<br>
       .footer-copyright
         .main-container.center © 2016 Copyright | Meat Pro S.A. | Carnivery es una marca de Meat Pro
     <!-- JAVA SCRIPT NECESARIOS-->
