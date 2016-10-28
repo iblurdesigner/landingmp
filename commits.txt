@@ -1,3 +1,9 @@
+commit 6999e8b06732b4fd63d81b2e8ae3017066605b75
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Oct 4 14:56:59 2016 -0500
+
+    nuevo footer para alinearse al de carnivery
+
 commit 80c1e1ad28dc825e51f73fe71542fe47402bff67
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Sep 26 16:13:46 2016 -0500

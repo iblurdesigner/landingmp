@@ -27,7 +27,7 @@ html(lang='en')
             li
               a(href='sass.html') Empresa
             li
-              a(href='badges.html') Industry
+              a(href="http://industry.meatpro.com.ec/fichas-industry/") Industry
             // Dropdown Trigger
             li
               a.dropdown-button(href='#!', data-activates='dropdown1')
@@ -42,12 +42,12 @@ html(lang='en')
               a(href='badges.html') Industry
             // Dropdown Trigger
             li
-              a(href='#!') Carnivery
+              a(href="http://industry.meatpro.com.ec/fichas-carnivery/") Carnivery
                 li
-                  a(href='#!') Día Día
+                  a(href='#headDia') Día Día
                 li.divider
                 li
-                a(href='#!') Fin de semana
+                a(href='#textFinde') Fin de semana
             li
               a(href='collapsible.html') Contáctenos
 
@@ -56,16 +56,18 @@ html(lang='en')
       .container
         .row
           h1.col.s12.resumen.center
-            | Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de: Res, Cerdo, Pollo y Charcutería. 
+            | Somos una agroindustria ecuatoriana que procesa y comercializa los mejores cortes de carne de: Res, Cerdo, Pollo y Charcutería.
             br
             | Nuestra línea Industry se enfoca en todo el sector HORECA. (Hoteles, Caterings, Restaurantes).
             | Para llegar al consumidor final, hemos creado una nueva línea Carnivery, que se enfoca en facilitar la vida al cliente final, con lo mejor de nuestra línea cárnica.
           h2.subti3.center Nuestras Líneas
         .row.center
           .col.s6.logo
-            img.sombra(src='img/logoIndustry.png', alt='')
+            a(href="http://industry.meatpro.com.ec/fichas-industry/")
+              img.sombra(src='img/logoIndustry.png', alt='')
           .col.s6.logo
-            img(src='img/mobile/logoCarnivery@2x.png', alt='')
+            a(href="http://industry.meatpro.com.ec/fichas-carnivery/")
+              img(src='img/mobile/logoCarnivery@2x.png', alt='')
           .col.s12
             .row.center  
               a(href="#carHead").btnEntrar Ver más
@@ -80,7 +82,8 @@ html(lang='en')
           p.col.s12.textCarnivery.sombraText
             | Muchas veces necesitas tus cortes para el almuerzo y no tienes tiempo, no te preocupes. Carnivery te llevará los mejores cortes directo a tu hogar. Tenemos dos líneas Día Día y Fin de Semana. Ya no pases tiempo en el supermercado, Carnivery te simplifica la vida.
         .row.center
-          botton.btnEntrar entrar
+          a(href="http://industry.meatpro.com.ec/fichas-carnivery/")
+            botton.btnEntrar entrar
 
     <!-- DIA A DIA-->
     .main-container.madera.alfa
@@ -96,7 +99,7 @@ html(lang='en')
                   p.col.s12
                     | Muchas veces no sabes que preparar para cada día. No te preocupes, puedes pedir tus cortes y planificar toda una semana. Así tendrás cero estrés.
                 .row.center
-                  botton.btnEntrar entrar
+                  //- botton.btnEntrar entrar OJO VOLVER A ACTIVAR!!!!!!
             <!-- CAJA BLANCA EN OTRA FILA-->
             .row.cajaBlanca.sombra <!-- ESTA FILA CONTIENE la caja-->
               img(src='img/cfinde.png', width="100%")
@@ -129,7 +132,7 @@ html(lang='en')
       .container.logoFinde
         .row#textFinde.centrar
           p.center#textFinde2 Ahora puedes hacer la parrillada con todos tus amigos y el producto estará listo para prepararse. Con la línea Fin de semana tendrás una variedad de productos para ese asado que tienes planificado con tu familia o amigos. <br> Solo tienes que llamarnos!
-          botton.btnEntrar.center#btnFinde entrar
+          //- botton.btnEntrar.center#btnFinde entrar  OJO VOLVER A ACTIVAR!!!!!!!!!
     // image parrillada    
     .main-container.sepUp
       .container
@@ -165,7 +168,8 @@ html(lang='en')
         .row.center
           p.col.s12 Procesamos, comercializamos y desarrollamos productos cárnicos inocuos de alta calidad, al alcance de todos los segmentos del sector HORECA e industrial en Ecuador
         .row.center
-          botton.btnEntrar entrar
+          a(href="http://industry.meatpro.com.ec/fichas-industry/")
+            botton.btnEntrar entrar
 
     <!-- SECCION LINEAS DE PRODUCTOS-->
     .main-container
@@ -195,14 +199,16 @@ html(lang='en')
         .row  
           .col.s12.m4.sepUp
             h3.textOran FICHAS TÉCNICAS
-            img(src="img/mobile/ficha.jpg", alt="", width="90%")
+            a(href="http://localhost:8888/industry/fichas-industry/")
+              img(src="img/mobile/ficha.jpg", alt="", width="90%")
             p.textPeque Encuentre todas las especificaciones de nuestros productos industriales.
-            botton.btnEntrar.sepUp ver
+            a(href="http://industry.meatpro.com.ec/fichas-industry/")
+              botton.btnEntrar.sepUp ver
           .col.s12.m4.sepUp
             h3.textOran FOOD & SERVICES
             img(srcset="img/mobile/foodServices.jpg 1x, img/mobile/foodServices@2x.jpg 2x", alt="", width="90%")
             p.textPeque Comercializamos los más finos cortes de carne de res, cerdo, pollo y charcutería para abastecer a caterings, hoteles y restaurantes en el país.
-            botton.btnEntrar.sepUp ver
+            //- botton.btnEntrar.sepUp ver  OJO VOLVER A HABILITAR!!!!!!
           .col.s12.m4.sepUp
             h3.textOran INOCUIDAD
             img(srcset="img/mobile/bpm.png 1x, img/mobile/bpm@2x.png 2x", alt="", width="65%")
