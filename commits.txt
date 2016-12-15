@@ -1,3 +1,9 @@
+commit 43fcf5f690371f9ba15414acdd658cb27d8c4fea
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Oct 28 16:25:48 2016 -0500
+
+    enlaces arreglados para el nuevo servidor
+
 commit 6999e8b06732b4fd63d81b2e8ae3017066605b75
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Oct 4 14:56:59 2016 -0500
