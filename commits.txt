@@ -1,3 +1,9 @@
+commit 4b31c134107f109db83529ac938cbe2287c67403
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Dec 15 10:28:35 2016 -0500
+
+    enlaces de contactos a mpgroup
+
 commit 43fcf5f690371f9ba15414acdd658cb27d8c4fea
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Oct 28 16:25:48 2016 -0500
