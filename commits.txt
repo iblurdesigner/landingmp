@@ -1,3 +1,9 @@
+commit bfdfc94be33be0e80a1f216279aa255e0062d2c6
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jan 30 14:34:46 2017 -0500
+
+    arreglo en los links de carnivery e industry
+
 commit 4b31c134107f109db83529ac938cbe2287c67403
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Thu Dec 15 10:28:35 2016 -0500
